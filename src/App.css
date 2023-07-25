@@ -1,0 +1,190 @@
+.header { 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: max-content;
+  margin: 0 auto;
+  color: black;
+  font-size: 18px;
+}
+
+.header h1 {
+  display: flex;
+  justify-content: center;
+  color:  rgb(255, 6, 46) ;
+}
+.ContainerAll {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: rgb(255, 251, 251);
+  border-radius: 1%;
+  margin-top: 5%;
+  min-height: 150px;
+  border: 1px solid rgb(224, 224, 224);
+}
+.containerInfo { 
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+
+.containerInfo span { 
+  width: 33%;
+  font-size: 18px;
+  padding-left: 7px;
+  font-weight: 500;
+}
+
+.containerMovies {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+h4 { 
+  padding-left: 10px;
+}
+.movie {
+  width:100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(231, 227, 227);
+}
+
+.divs {
+  width: 33%;  
+}
+
+
+.divs span {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 7px;
+  padding-left: 6px;
+}
+.divs button { 
+  font-size: 32px;
+  color: grey;
+  border: none;
+  background-color: white;
+}
+
+.divs button:hover { 
+ cursor: pointer;
+ opacity: 0.7;
+}
+.modal { 
+  width: 500px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 2%;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  z-index: 8;
+  transition: 2s;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.modal input { 
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+
+  height: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid rgb(170, 169, 169) 1px;
+  border-radius: 10px;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  background: none;
+}
+
+.modal label { 
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.modal button { 
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 6, 46) ;
+  color: white;
+}
+
+.modal button:hover { 
+  cursor: pointer;
+  opacity: 0.9;
+}
+.SearchContainer { 
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.SearchContainer input { 
+  height: 30px;
+  width: 300px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid rgb(170, 169, 169) 1px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  background: none;
+}
+
+.btn-add { 
+  width: 40px;
+  height: 30px;
+  font-size: 20px;
+  margin-left: 5px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 6, 46) ;
+  color: white;
+}
+.btn-search {
+  width: 80px;
+  height: 30px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 6, 46) ;
+  color: white;
+
+}
+
+.btn-search:hover { 
+ opacity: 0.9;
+ cursor: pointer;
+}
+.btn-add:hover { 
+  opacity: 0.9;
+  cursor: pointer;
+ }
